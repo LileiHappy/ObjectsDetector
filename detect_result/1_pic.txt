@@ -1,0 +1,108 @@
+Object Information{
+	id = 1,
+	shape type = circle,
+	Center Point{
+		x = 0.000000,
+		y = 0.000000,
+		z = 0.000000,
+	},
+	Size{
+		width = 157.000000,
+		height = 93.000000,
+		depth = 0.000000
+	},
+	Corner{
+		angle = 0.000000,
+	}
+}
+
+Object Information{
+	id = 2,
+	shape type = square,
+	Center Point{
+		x = 0.000000,
+		y = 0.000000,
+		z = 0.000000,
+	},
+	Size{
+		width = 155.000000,
+		height = 91.000000,
+		depth = 0.000000
+	},
+	Corner{
+		angle = 0.000000,
+	}
+}
+
+Object Information{
+	id = 3,
+	shape type = other,
+	Center Point{
+		x = 0.000000,
+		y = 0.000000,
+		z = 0.000000,
+	},
+	Size{
+		width = 158.000000,
+		height = 91.000000,
+		depth = 0.000000
+	},
+	Corner{
+		angle = 0.000000,
+	}
+}
+
+Object Information{
+	id = 4,
+	shape type = other,
+	Center Point{
+		x = 0.000000,
+		y = 0.000000,
+		z = 0.000000,
+	},
+	Size{
+		width = 163.000000,
+		height = 94.000000,
+		depth = 0.000000
+	},
+	Corner{
+		angle = 0.000000,
+	}
+}
+
+Object Information{
+	id = 5,
+	shape type = other,
+	Center Point{
+		x = 0.000000,
+		y = 0.000000,
+		z = 0.000000,
+	},
+	Size{
+		width = 160.000000,
+		height = 92.000000,
+		depth = 0.000000
+	},
+	Corner{
+		angle = 0.000000,
+	}
+}
+
+Object Information{
+	id = 6,
+	shape type = circle,
+	Center Point{
+		x = 0.000000,
+		y = 0.000000,
+		z = 0.000000,
+	},
+	Size{
+		width = 165.000000,
+		height = 94.000000,
+		depth = 0.000000
+	},
+	Corner{
+		angle = 0.000000,
+	}
+}
+
