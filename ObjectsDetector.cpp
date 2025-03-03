@@ -9,10 +9,13 @@
 
 int main() {
     std::string projectRootPath(PROJECT_ROOT_PATH);
-    projectRootPath.append(std::string(1, PlatformSupporter::getFilePathSeparator()));
+    projectRootPath
+        .append(std::string(1, PlatformSupporter::getFilePathSeparator()))
+        .append("asset")
+        .append(std::string(1, PlatformSupporter::getFilePathSeparator()));
     DetectConfigurationBuilder builder;
     builder
-    .addDetectImagePath(projectRootPath + "asset/9.7.IC.bmp")
+    .addDetectImagePath(projectRootPath + "please insert the path of your pending detect image")
             .addPreprocessingImageShow(false)
             .addIdLabel(true)
             .addFeatureExtractFilterThreshold(FeatureExtractFilterThreshold(200, 1e5, 10, 10, 10, 10))
@@ -25,7 +28,7 @@ int main() {
             .addGaussBlur(static_cast<int>(PreprocessStepPriority::P_7), 3)
             .addCanny(static_cast<int>(PreprocessStepPriority::P_8), 100, 200)
             .finishDetectConfiguration()
-    .addDetectImagePath(projectRootPath + "asset/1_pic.jpg")
+    .addDetectImagePath(projectRootPath + "please insert the path of your pending detect image")
             .addPreprocessingImageShow(false)
             .addIdLabel(true)
             .addFeatureExtractFilterThreshold(FeatureExtractFilterThreshold(200, 1e5, 10, 10, 10, 10))
@@ -38,7 +41,7 @@ int main() {
             .addGaussBlur(static_cast<int>(PreprocessStepPriority::P_7), 3)
             .addCanny(static_cast<int>(PreprocessStepPriority::P_8), 100, 200)
             .finishDetectConfiguration()
-    .addDetectImagePath(projectRootPath + "asset/2_pic.jpg")
+    .addDetectImagePath(projectRootPath + "please insert the path of your pending detect image")
             .addPreprocessingImageShow(false)
             .addIdLabel(true)
             .addFeatureExtractFilterThreshold(FeatureExtractFilterThreshold(200, 1e5, 10, 10, 10, 10))
@@ -51,7 +54,7 @@ int main() {
             .addGaussBlur(static_cast<int>(PreprocessStepPriority::P_7), 3)
             .addCanny(static_cast<int>(PreprocessStepPriority::P_8), 100, 200)
             .finishDetectConfiguration()
-    .addDetectImagePath(projectRootPath + "asset/3_pic.jpg")
+    .addDetectImagePath(projectRootPath + "please insert the path of your pending detect image")
             .addPreprocessingImageShow(false)
             .addFeatureExtractFilterThreshold(FeatureExtractFilterThreshold(16, 1e5, 4, 4, 0, 0))
             .addResize(static_cast<int>(PreprocessStepPriority::P_1), 0.2)
@@ -63,7 +66,7 @@ int main() {
 //            .addGaussBlur(static_cast<int>(PreprocessStepPriority::P_7), 3)
             .addCanny(static_cast<int>(PreprocessStepPriority::P_8), 200, 255)
             .finishDetectConfiguration()
-    .addDetectImagePath(projectRootPath + "asset/4_pic.jpg")
+    .addDetectImagePath(projectRootPath + "please insert the path of your pending detect image")
             .addPreprocessingImageShow(false)
             .addFeatureExtractFilterThreshold(FeatureExtractFilterThreshold(6, 1e5, 2, 2, 0, 0))
             .addResize(static_cast<int>(PreprocessStepPriority::P_1), 0.2)
